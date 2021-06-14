@@ -1,0 +1,31 @@
+body {
+    background-color: #222;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background-color: blueviolet;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 5px;
+}
+.container form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    min-height: 200px;
+}
+
+.container form button {
+    background: #222;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 15px;
+}

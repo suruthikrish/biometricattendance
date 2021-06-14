@@ -1,0 +1,26 @@
+body {
+    background-color: #222;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background-color: blueviolet;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 5px;
+    width: 70vw;
+}
+
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+}
