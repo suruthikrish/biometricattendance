@@ -32,7 +32,7 @@
 <body>
     <div class="container">
         <h1>Welcome!</h1>
-        <form action="/table.html" method="post" onsubmit="return validate()" name="myform">
+        <form action="/index.php" method="post" onsubmit="return validate()" name="myform">
             <input id="email" type="email" name="email" placeholder="Enter your email address">
             <input id="password" type="password" name="password" placeholder="Enter your password">
             <button type="submit" id="submit" onclick="validate()">Login</button>
